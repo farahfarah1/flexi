@@ -1,6 +1,6 @@
 name: flexiges
 description: Flexi is a dynamic, comprehensive Flutter package designed to provide developers with the ability to drop, zoom, rotate, and scale their widgets with ease and precision.Flexi makes it straightforward and efficient.
-version: 1.0.0
+version: 1.0.2
 homepage: https://github.com/farahfarah1/flexi
 
 environment:

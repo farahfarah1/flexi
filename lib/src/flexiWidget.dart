@@ -96,7 +96,7 @@ class _FlexiState extends State<Flexi> {
       }
       double aspectRatio = (width / height);
       return AbsorbPointer(
-        absorbing: false,
+        absorbing: !widget.enabled,
         child: AspectRatio(
             aspectRatio: aspectRatio,
             child: DeferredPointerHandler(

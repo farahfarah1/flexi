@@ -2,9 +2,9 @@ import 'package:defer_pointer/defer_pointer.dart';
 import 'package:flutter/material.dart';
 
 // Define a class for the ZoomAndPanDemo widget
-class Flexi extends StatefulWidget {
+class FlexiGes extends StatefulWidget {
   // Constructor with optional parameters and required child widget
-  const Flexi({
+  const FlexiGes({
     super.key,
     required this.child,
     this.minScale = 0.8,
@@ -64,11 +64,11 @@ class Flexi extends StatefulWidget {
 
   // Create the state for the widget
   @override
-  _FlexiState createState() => _FlexiState();
+  FlexiState createState() => FlexiState();
 }
 
 // Define the state for the ZoomAndPanDemo widget
-class _FlexiState extends State<Flexi> {
+class FlexiState extends State<FlexiGes> {
   // Initialize variables
   Offset _offset = Offset.zero;
   Offset _initialFocalPoint = Offset.zero;

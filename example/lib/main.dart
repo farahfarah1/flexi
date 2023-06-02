@@ -1,4 +1,4 @@
-import 'package:flexi/flexi.dart';
+import 'package:flexiges/flexiges.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
         title: const Text('Flexi Widget Demo'),
       ),
       body: Center(
-        child: Flexi(
+        child: FlexiGes(
             child: Container(
           width: 200,
           height: 200,

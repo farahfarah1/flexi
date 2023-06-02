@@ -1,4 +1,4 @@
-import 'package:flexi/flexi.dart';
+import 'package:flexiges/flexiges.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -6,7 +6,7 @@ void main() {
   Widget createFlexiTestWidget({required Widget child}) {
     return MaterialApp(
       home: Scaffold(
-        body: Flexi(
+        body: FlexiGes(
           child: child,
           onScaleStart: (_) {},
           onScaleUpdate: (_, __, ___) {},
@@ -17,7 +17,8 @@ void main() {
   }
 
   testWidgets('Flexi widget initialization', (WidgetTester tester) async {
-    await tester.pumpWidget(createFlexiTestWidget(child: Text('Flexi child')));
+    await tester
+        .pumpWidget(createFlexiTestWidget(child: const Text('Flexi child')));
     expect(find.text('Flexi child'), findsOneWidget);
   });
 

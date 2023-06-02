@@ -2,7 +2,7 @@
 
 Flexi is a Flutter package that provides a flexible widget for zooming, panning, and rotating child widgets.
 
-<img src="gif/ezgif.com-video-to-gif.gif" alt="Alt Text" height="400"/>
+<img src="gif/ezgif.com-video-to-gif.gif" alt="Alt Text" height="600"/>
 
 ## Features
 
